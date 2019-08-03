@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Blackjack</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="container text-center">
+
+<h1>Blackjack</h1>
+
+<div class="text-center">
+
+<button type="button" id="btnHit" class="btn" onclick=hit()>Hit</button>
+<button type="button" id="btnStart" class="btn" onclick=startBlackjack()>Start/Restart</button>
+<button type="button" id="btnStay" class="btn" onclick=stay()>Stay</button>
+
+</div>
+
+<h3 class="header2">Your Cards</h3> <!-- Players cards header -->
+
+<div id="playerdeck" class="playerdeck text-center"></div> <!-- Players cards are shown here -->
+
+<h3 class="header2">Dealers Cards</h3> <!-- Dealers cards header -->
+
+<div id="dealerdeck" class="text-center"></div> <!-- Dealers cards are shown here -->
+
+<h3 class="header2">Result</h3> <!-- Result header -->
+
+<div id="results" class="text-center"></div> <!-- Result is shown here at end of game -->
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- Bootstrap JQuery -->
+<script src="blackjack.js"></script> <!-- Javascript Script-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!-- Bootstrap Javascript -->
+
+</body>
+</html>
