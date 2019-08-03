@@ -227,7 +227,7 @@ if (pweightt > 21){
 
 function updateDealerPoints(){
 		dweight.push(parseInt(ddeck[ddeck.length - 1]));
-                    if (ddeck[pdeck.length - 1].replace(/\W/g, '') == "J" || ddeck[ddeck.length - 1].replace(/\W/g, '') == "Q" || ddeck[ddeck.length - 1].replace(/\W/g, '') == "K")
+                    if (ddeck[ddeck.length - 1].replace(/\W/g, '') == "J" || ddeck[ddeck.length - 1].replace(/\W/g, '') == "Q" || ddeck[ddeck.length - 1].replace(/\W/g, '') == "K")
                     dweight.push(10);    
 					//pweight[pdeck.length - 1] = 10;
                     if (ddeck[ddeck.length - 1].replace(/\W/g, '') == "A")
